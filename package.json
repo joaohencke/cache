@@ -1,0 +1,41 @@
+{
+  "name": "@joao.hencke/cache",
+  "version": "1.0.0",
+  "description": "a wrapper for node-redis. Study purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha ./**/*.spec.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohencke/cache.git"
+  },
+  "keywords": [
+    "cache",
+    "redis"
+  ],
+  "author": "Joao Hencke <joao.hencke@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaohencke/cache/issues"
+  },
+  "homepage": "https://github.com/joaohencke/cache#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6",
+    "prettier": "^1.15.2"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
